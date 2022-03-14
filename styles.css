@@ -1,0 +1,93 @@
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border: black solid 5px;
+}
+#wrapper h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #4D97BC;
+}
+
+#wrapper footer {
+	clear: both;
+}
+#wrapper article {
+display: none;
+}
+#wrapper #mainnav ul li {
+	text-transform: uppercase;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	list-style: none;
+	width: 100%;
+	
+}
+
+#mainnav ul{
+	padding:0;
+	margin:0;
+	background-color: #5F5F5F;
+	
+}
+
+#mainnav ul li a.active{
+    background-color: #198BB4
+    
+}
+
+#mainnav ul li a{
+
+	background-color: #5F5F5F;
+	display: block;
+	width: 100%;
+	line-height: 3em;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+
+#mainnav ul li a:hover{
+	background-color: #198BB4
+}
+a.active{
+    background-color: #198BB4
+    
+}
+footer{
+	background-color: #198BB4;
+}
+
+@media screen and (min-width: 825px){
+	#mainnav ul{
+		width:100%;
+	display: flex;
+	justify-content: space-evenly;
+	}
+	#wrapper article {
+		display: block;
+		position: absolute;
+		width: 400px;
+		top: 15%;
+		right: 10px;
+		background-color: sandybrown;
+		border-radius: 1em;
+		padding: .5em;
+	}
+	#wrapper main {
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+	}
+	#wrapper aside {
+		width: 50%;
+		float: left;
+	}
+	
+}
+
